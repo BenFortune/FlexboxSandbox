@@ -36,6 +36,10 @@ h3{font-weight:300;}
 
 .flex-row.flex-shrink .column-2{width:auto;flex-shrink:2;}
 
+.flex-row.flex-basis .column-1{width:auto;flex-grow:4;flex-basis:auto}
+.flex-row.flex-basis .column-3{width:auto;flex-basis:3}
+.flex-row.flex-basis .column-4{margin-right:0;}
+
 .flex-row-reverse{flex-direction:row-reverse;}
 .flex-row-reverse .column-1{margin-right:0;}
 
