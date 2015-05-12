@@ -64,8 +64,13 @@ h3{font-weight:300;}
 
 /* VERTICALLY ALIGNED STYLING */
 .align-items-flex-start{align-items:flex-start;}
+.align-items-flex-start .align-self{align-self:flex-end;}
 .align-items-flex-end{align-items:flex-end;}
 .align-items-center{align-items:center;}
 .align-items-stretch{align-items:stretch;}
 .align-items-baseline{align-items:baseline;}
 .align-items-baseline .column-1, .align-items-baseline .column-4{line-height:80px;vertical-align:top;}
+
+/* USE CASES */
+.center.parent{display:flex;height:200px;width:200px;background-color:#DDD;}
+.center .child{width:100px;height:100px;margin:auto;background-color:#E04836;color:#FFF;}
