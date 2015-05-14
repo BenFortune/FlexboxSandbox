@@ -68,9 +68,13 @@ h3{font-weight:300;}
 .align-items-flex-end{align-items:flex-end;}
 .align-items-center{align-items:center;}
 .align-items-stretch{align-items:stretch;}
+.align-items-stretch .column-1, .align-items-stretch .column-2, .align-items-stretch .column-3, .align-items-stretch .column-4{height:auto;}
 .align-items-baseline{align-items:baseline;}
 .align-items-baseline .column-1, .align-items-baseline .column-4{line-height:80px;vertical-align:top;}
 
 /* USE CASES */
 .center.parent{display:flex;height:200px;width:200px;background-color:#DDD;}
 .center .child{width:100px;height:100px;margin:auto;background-color:#E04836;color:#FFF;}
+
+.use-cases .align-items-stretch .column-1{height:200px;width:500px;margin-right:0;}
+.use-cases .align-items-stretch .column-2{width:200px;height:auto;}
