@@ -6,7 +6,7 @@ h2{padding-bottom:5px;color:#666;font-size:22px;border-bottom:1px solid #D9D9D9}
 h3{font-weight:300;}
 .text-right{text-align:right;}
 .text-center{text-align:center;}
-.warning{margin-top:.75em;padding:5px 10px;color:#FFF;font-weight:300;background:#F60 none;border-radius:3px;}
+.warning{margin-top:.75em;padding:5px 10px;color:#FFF;font-weight:300;background:#58C756 none;border-radius:3px;}
 /* END GLOBAL STYLING */
 
 /* FLEXBOX STYLING */
@@ -80,4 +80,5 @@ h3{font-weight:300;}
 .use-cases .align-items-stretch .column-1{height:200px;width:500px;margin-right:0;}
 .use-cases .align-items-stretch .column-2{width:200px;height:auto;}
 
-.use-cases .responsive-row{-webkit-flex-flow:row wrap;flex-flow:row wrap;justify-content:space-around;}
+.use-cases .responsive-row{flex-grow:row}
+/* .use-cases .responsive-row .column-1, .use-cases .responsive-row .column-2, .use-cases .responsive-row .column-3, .use-cases .responsive-row .column-4{width:auto;} */
