@@ -82,3 +82,7 @@ h3{font-weight:300;}
 
 .use-cases .responsive-row{flex-flow:row wrap;justify-content:space-around;}
 .use-cases .responsive-row .column-1, .use-cases .responsive-row .column-2, .use-cases .responsive-row .column-3, .use-cases .responsive-row .column-4{width:25%;margin-right:0;}
+
+/* CODE STYLING */
+pre{padding:0;line-height:1;background:#777 none;}
+code{display:block;padding:5px 10px;color:#FF0;}
