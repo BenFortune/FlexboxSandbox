@@ -1,16 +1,19 @@
 /* GLOBAL STYLING */
 body{background-color:#EEE;color:#333;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif}
 .page-container{display:block;width:75%;margin:0 auto;padding-bottom:3em;}
-h1{font-weight:300;}
+h1{margin-bottom:0;padding-bottom:0;font-weight:300;}
 h2{padding-bottom:5px;color:#666;font-size:22px;border-bottom:1px solid #D9D9D9}
-h3{font-weight:300;}
+h3{margin-top:40px;margin-bottom:0;font-size:18px;color:#069;}
 .text-right{text-align:right;}
 .text-center{text-align:center;}
 .warning{margin-top:.75em;padding:5px 10px;color:#FFF;font-weight:300;background:#58C756 none;border-radius:3px;}
+hr{margin-bottom:20px;height:1px;border:0 none;background: #333333;background: -moz-linear-gradient(left,  #333333 0%, #eeeeee 25%);background: -webkit-gradient(linear, left top, right top, color-stop(0%,#333333), color-stop(25%,#eeeeee));background: -webkit-linear-gradient(left,  #333333 0%,#eeeeee 25%);background: -o-linear-gradient(left,  #333333 0%,#eeeeee 25%);background: -ms-linear-gradient(left,  #333333 0%,#eeeeee 25%);background: linear-gradient(to right,  #333333 0%,#eeeeee 25%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#eeeeee',GradientType=1 );}
+hr.reverse{background: #eeeeee;background: -moz-linear-gradient(left,  #eeeeee 75%, #333333 100%);background: -webkit-gradient(linear, left top, right top, color-stop(75%,#eeeeee), color-stop(100%,#333333));background: -webkit-linear-gradient(left,  #eeeeee 75%,#333333 100%);background: -o-linear-gradient(left,  #eeeeee 75%,#333333 100%);background: -ms-linear-gradient(left,  #eeeeee 75%,#333333 100%);background: linear-gradient(to right,  #eeeeee 75%,#333333 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#333333',GradientType=1 );}
+.subtitle{margin-top:0;color:#999;}
 /* END GLOBAL STYLING */
 
 /* FLEXBOX STYLING */
-.container{display:flex;}
+.container{display:flex;margin-bottom:30px;}
 .column-1{display:block;width:100px;height:100px;margin-right:20px;color:#FFF;text-align:center;line-height:100px;vertical-align:middle;background-color:#E04836;}
 .column-2{display:block;width:100px;height:100px;margin-right:20px;color:#FFF;text-align:center;line-height:100px;vertical-align:middle;background-color:#F39D41;}
 .column-3{display:block;width:100px;height:100px;margin-right:20px;color:#FFF;text-align:center;line-height:100px;vertical-align:middle;background-color:#8D5924;}
