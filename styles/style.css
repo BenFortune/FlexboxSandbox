@@ -12,6 +12,14 @@ hr.reverse{background: #eeeeee;background: -moz-linear-gradient(left,  #eeeeee 7
 .subtitle{margin-top:0;color:#999;}
 /* END GLOBAL STYLING */
 
+/* HEADER STYLING */
+header{margin-top:40px;}
+header .left-col, header .right-col{display:inline-block;padding:0;margin:0;}
+header .left-col{width:8%;max-height:72px;}
+header .left-col img{max-width:72px;}
+header .right-col{width:91%;line-height:1;vertical-align:bottom}
+/* END HEADER STYLING */
+
 /* FLEXBOX STYLING */
 .container{display:flex;margin-bottom:30px;}
 .column-1{display:block;width:100px;height:100px;margin-right:20px;color:#FFF;text-align:center;line-height:100px;vertical-align:middle;background-color:#E04836;}
@@ -25,6 +33,7 @@ hr.reverse{background: #eeeeee;background: -moz-linear-gradient(left,  #eeeeee 7
 .vertical .column-2{height:50px;line-height:50px;}
 .vertical .column-3{height:100px;line-height:100px;}
 .vertical .column-4{height:200px;line-height:200px;}
+/* END VERTICAL ROW STYLING */
 
 /* HORIZONTALLY ALIGNED STYLING */
 .flex-row{flex-direction:row;}
@@ -65,6 +74,7 @@ hr.reverse{background: #eeeeee;background: -moz-linear-gradient(left,  #eeeeee 7
 .align-content-flex-start .column-3{display:flex;align-content:flex-start;width:33%;}
 .align-content-flex-start .column-4{display:flex;align-content:flex-start;width:33%;}
 .align-content-flex-start .column-5{display:flex;align-content:flex-start;width:30%;}
+/* END HORIZONTALLY ALIGNED STYLING */
 
 /* VERTICALLY ALIGNED STYLING */
 .align-items-flex-start{align-items:flex-start;}
@@ -75,6 +85,7 @@ hr.reverse{background: #eeeeee;background: -moz-linear-gradient(left,  #eeeeee 7
 .align-items-stretch .column-1, .align-items-stretch .column-2, .align-items-stretch .column-3, .align-items-stretch .column-4{height:auto;}
 .align-items-baseline{align-items:baseline;}
 .align-items-baseline .column-1, .align-items-baseline .column-4{line-height:80px;vertical-align:top;}
+/* END VERTICALLY ALIGNED STYLING */
 
 /* USE CASES */
 .center.parent{display:flex;height:200px;width:200px;background-color:#DDD;}
