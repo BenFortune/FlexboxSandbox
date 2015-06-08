@@ -1,8 +1,8 @@
 /* GLOBAL STYLING */
 body{background-color:#EEE;color:#333;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif}
 .page-container{display:flex;padding-bottom:3em;}
-.page-container > .left-col{display:block;float:left;width:30%;padding:0 3em 0 1.5em;background-color:#333;}
-.page-container > .right-col{display:block;float:right;width:69.9%;padding:0 1.5em 0 3em;}
+.page-container > .left-col{display:block;float:left;width:30%;padding:0 1.5em;background-color:#333;}
+.page-container > .right-col{display:block;float:right;width:69.9%;padding:0 1.5em;}
 
 h1, h2, h3{font-family: 'Varela Round', sans-serif;}
 h1{margin-bottom:0;padding-bottom:0;color:#F9F9F9;font-weight:300;}
@@ -18,11 +18,11 @@ hr.reverse{background: #eeeeee;background: -moz-linear-gradient(left,  #eeeeee 7
 /* END GLOBAL STYLING */
 
 /* HEADER STYLING */
-header{display:flex;margin-top:40px;}
-header .left-col, header .right-col{flex-wrap:wrap;padding:0;margin:0;}
-header .left-col{width:40%;max-height:72px;}
+header{display:block;margin-top:40px;}
+header .left-col, header .right-col{display:inline-block;padding:0;margin:0;}
+header .left-col{width:32%;max-height:72px;}
 header .left-col img{max-width:72px;}
-header .right-col{width:59.9%;line-height:1;vertical-align:bottom}
+header .right-col{width:66%;line-height:1;vertical-align:bottom}
 header p{display:block;width:100%;}
 /* END HEADER STYLING */
 
