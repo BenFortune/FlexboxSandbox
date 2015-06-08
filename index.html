@@ -16,246 +16,250 @@
     <body>
        	<!-- Add your site or application content here -->
         <div class="page-container">
-          <section class="warning">A work in progress</section>
-          <header>
-            <section class="left-col">
-              <img src="img/logo.png" alt="Logo">
-            </section>
-            <section class="right-col">
-              <h1>Flexbox Sandbox</h1>
+          <section class="left-col">
+            <header>
+              <section class="left-col">
+                <img src="img/logo.png" alt="Logo">
+              </section>
+              <section class="right-col">
+                <h1>Flexbox Snippets</h1>
+              </section>
               <p class="subtitle">A collection of code snippets for flexbox properties</p>
-            </section>
-          </header>
-          <section class="horizontal">
-            <h3>Flex Row</h3>
-            <hr></hr>
-            <section class="container flex-row">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.flex-row{flex-direction:row;}</span></code></pre>
-            </section>
-            <h3 class="text-right">Flex Row Reverse</h3>
-            <hr class="reverse"></hr>
-            <section class="container flex-row-reverse">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.flex-row-reverse{flex-direction:row-reverse;}</span><br /><span>.flex-row-reverse .column-1{margin-right:0;}</span></code></pre>
-            </section>
-            <h3>Flex Justify Content - Flex Start</h3>
-            <hr></hr>
-            <section class="container justify-content-flex-start">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.justify-content-flex-start{justify-content:flex-start}</span></code></pre>
-            </section>
-            <h3 class="text-right">Flex Justify Content - Flex End</h3>
-            <hr class="reverse"></hr>
-            <section class="container justify-content-flex-end">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.justify-content-flex-end{justify-content:flex-end}</span><br /><span>.justify-content-flex-end .column-4{margin-right:0;}</span></code></pre>
-            </section>
-            <h3>Flex Justify Content - Center</h3>
-            <hr></hr>
-            <section class="container justify-content-center">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.justify-content-center{justify-content:center;}<span></code></pre>
-            </section>
-            <h3>Flex Justify Content - Space Between</h3>
-            <hr></hr>
-            <section class="container justify-content-space-between">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.justify-content-space-between{justify-content:space-between;}</span><br /><span>.justify-content-space-between .column-4{margin-right:0;}<span></code></pre>
-            </section>
-            <h3>Flex Justify Content - Space Around</h3>
-            <hr></hr>
-            <section class="container justify-content-space-around">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.justify-content-space-around{justify-content:space-around;}</span></code></pre>
-            </section>
-            <!-- TODO - RESEARCH MORE
-            <h3>Flex Align Content - Flex Start</h3>
-            <div class="align-content-flex-start">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-              <div class="column-5">Column 5</div>
-            </div> -->
-            <h3>Flex Order - Adjusting Order of Columns</h3>
-            <hr></hr>
-            <section class="container flex-row order">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.flex-row.order .column-1{order:99;}</span><br /><span>.flex-row.order .column-2{order:1;}</span><br /><span>.flex-row.order .column-3{order:83;}</span><br /><span>.flex-row.order .column-4{order:4;}</span><br /><span>.flex-row.order .column-5{order:3;}</span></code></pre>
-            </section>
-            <h3>Flex Grow</h3>
-            <hr></hr>
-            <section class="container flex-row flex-grow">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.flex-row.flex-grow .column-3{flex-grow:2;}</span><br /><span>.flex-row.flex-grow .column-4{margin-right:0;}<span></code></pre>
-            </section>
-            <h3>Flex Shrink</h3>
-            <hr></hr>
-            <section class="container flex-row flex-shrink">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.flex-row.flex-shrink .column-2{width:auto;flex-shrink:2;}<span></code></pre>
-            </section>
-            <h3>Flex Basis</h3>
-            <hr></hr>
-            <section class="container flex-row flex-basis">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.flex-row.flex-basis .column-1{width:auto;flex-grow:4;flex-basis:auto}</span><br /><span>.flex-row.flex-basis .column-3{width:auto;flex-basis:3}</span><br /><span>.flex-row.flex-basis .column-4{margin-right:0;}</span></code></pre>
-            </section>
-          </section><!-- END ROW -->
-          <section class="vertical">
-            <!-- <h2>4 Column Vertically Staggered</h2> -->
-            <h3>Flex - Align Items - Flex Start</h3>
-            <hr></hr>
-            <section class="container align-items-flex-start">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.align-items-flex-start{align-items:flex-start;}</span></code></pre>
-            </section>
-            <h3>Flex - Align Items - Flex End</h3>
-            <hr></hr>
-            <section class="container align-items-flex-end">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.align-items-flex-end{align-items:flex-end;}</span></code></pre>
-            </section>
-            <h3>Flex - Align Items - Center</h3>
-            <hr></hr>
-            <section class="container align-items-center">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.align-items-center{align-items:center;}</span></code></pre>
-            </section>
-            <h3>Flex - Align Items - Stretch</h3>
-            <hr></hr>
-            <section class="container align-items-stretch">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.align-items-stretch{align-items:stretch;}</span><br /><span>.align-items-stretch .column-1, .align-items-stretch .column-2, .align-items-stretch .column-3, .align-items-stretch .column-4{height:auto;}</span></code></pre>
-            </section>
-            <h3>Flex - Align Items - Baseline</h3>
-            <hr></hr>
-            <section class="container align-items-baseline">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.align-items-baseline{align-items:baseline;}</span><br /><span>.align-items-baseline .column-1, .align-items-baseline .column-4{line-height:80px;vertical-align:top;}</span></code></pre>
-            </section>
-            <h3>Flex - Align Self</h3>
-            <hr></hr>
-            <section class="container align-items-flex-start">
-              <div class="column-1">Column 1</div>
-              <div class="column-2 align-self">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.align-items-flex-start .align-self{align-self:flex-end;}</span></code></pre>
-            </section>
+            </header>
           </section>
-          <section class="use-cases">
-            <h2>Flex Use Cases</h2>
-            <h3>Center a child element exactly inside the parent element</h3>
-            <hr></hr>
-            <section class="container center parent">
-              <div class="child">Child</div>
+          <section class="right-col">
+            <section class="warning">A work in progress</section>
+            <section class="horizontal">
+              <h3>Flex Row</h3>
+              <hr></hr>
+              <section class="container flex-row">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.flex-row{flex-direction:row;}</span></code></pre>
+              </section>
+              <h3 class="text-right">Flex Row Reverse</h3>
+              <hr class="reverse"></hr>
+              <section class="container flex-row-reverse">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.flex-row-reverse{flex-direction:row-reverse;}</span><br /><span>.flex-row-reverse .column-1{margin-right:0;}</span></code></pre>
+              </section>
+              <h3>Flex Justify Content - Flex Start</h3>
+              <hr></hr>
+              <section class="container justify-content-flex-start">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.justify-content-flex-start{justify-content:flex-start}</span></code></pre>
+              </section>
+              <h3 class="text-right">Flex Justify Content - Flex End</h3>
+              <hr class="reverse"></hr>
+              <section class="container justify-content-flex-end">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.justify-content-flex-end{justify-content:flex-end}</span><br /><span>.justify-content-flex-end .column-4{margin-right:0;}</span></code></pre>
+              </section>
+              <h3>Flex Justify Content - Center</h3>
+              <hr></hr>
+              <section class="container justify-content-center">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.justify-content-center{justify-content:center;}<span></code></pre>
+              </section>
+              <h3>Flex Justify Content - Space Between</h3>
+              <hr></hr>
+              <section class="container justify-content-space-between">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.justify-content-space-between{justify-content:space-between;}</span><br /><span>.justify-content-space-between .column-4{margin-right:0;}<span></code></pre>
+              </section>
+              <h3>Flex Justify Content - Space Around</h3>
+              <hr></hr>
+              <section class="container justify-content-space-around">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.justify-content-space-around{justify-content:space-around;}</span></code></pre>
+              </section>
+              <!-- TODO - RESEARCH MORE
+              <h3>Flex Align Content - Flex Start</h3>
+              <div class="align-content-flex-start">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+                <div class="column-5">Column 5</div>
+              </div> -->
+              <h3>Flex Order - Adjusting Order of Columns</h3>
+              <hr></hr>
+              <section class="container flex-row order">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.flex-row.order .column-1{order:99;}</span><br /><span>.flex-row.order .column-2{order:1;}</span><br /><span>.flex-row.order .column-3{order:83;}</span><br /><span>.flex-row.order .column-4{order:4;}</span><br /><span>.flex-row.order .column-5{order:3;}</span></code></pre>
+              </section>
+              <h3>Flex Grow</h3>
+              <hr></hr>
+              <section class="container flex-row flex-grow">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.flex-row.flex-grow .column-3{flex-grow:2;}</span><br /><span>.flex-row.flex-grow .column-4{margin-right:0;}<span></code></pre>
+              </section>
+              <h3>Flex Shrink</h3>
+              <hr></hr>
+              <section class="container flex-row flex-shrink">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.flex-row.flex-shrink .column-2{width:auto;flex-shrink:2;}<span></code></pre>
+              </section>
+              <h3>Flex Basis</h3>
+              <hr></hr>
+              <section class="container flex-row flex-basis">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.flex-row.flex-basis .column-1{width:auto;flex-grow:4;flex-basis:auto}</span><br /><span>.flex-row.flex-basis .column-3{width:auto;flex-basis:3}</span><br /><span>.flex-row.flex-basis .column-4{margin-right:0;}</span></code></pre>
+              </section>
+            </section><!-- END ROW -->
+            <section class="vertical">
+              <!-- <h2>4 Column Vertically Staggered</h2> -->
+              <h3>Flex - Align Items - Flex Start</h3>
+              <hr></hr>
+              <section class="container align-items-flex-start">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.align-items-flex-start{align-items:flex-start;}</span></code></pre>
+              </section>
+              <h3>Flex - Align Items - Flex End</h3>
+              <hr></hr>
+              <section class="container align-items-flex-end">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.align-items-flex-end{align-items:flex-end;}</span></code></pre>
+              </section>
+              <h3>Flex - Align Items - Center</h3>
+              <hr></hr>
+              <section class="container align-items-center">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.align-items-center{align-items:center;}</span></code></pre>
+              </section>
+              <h3>Flex - Align Items - Stretch</h3>
+              <hr></hr>
+              <section class="container align-items-stretch">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.align-items-stretch{align-items:stretch;}</span><br /><span>.align-items-stretch .column-1, .align-items-stretch .column-2, .align-items-stretch .column-3, .align-items-stretch .column-4{height:auto;}</span></code></pre>
+              </section>
+              <h3>Flex - Align Items - Baseline</h3>
+              <hr></hr>
+              <section class="container align-items-baseline">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.align-items-baseline{align-items:baseline;}</span><br /><span>.align-items-baseline .column-1, .align-items-baseline .column-4{line-height:80px;vertical-align:top;}</span></code></pre>
+              </section>
+              <h3>Flex - Align Self</h3>
+              <hr></hr>
+              <section class="container align-items-flex-start">
+                <div class="column-1">Column 1</div>
+                <div class="column-2 align-self">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.align-items-flex-start .align-self{align-self:flex-end;}</span></code></pre>
+              </section>
             </section>
-            <section class="style-code">
-              <pre><code><span>.center.parent{display:flex;height:200px;width:200px;background-color:#DDD;}</span><br /><span>.center .child{width:100px;height:100px;margin:auto;background-color:#E04836;color:#FFF;}</span></code></pre>
-            </section>
-            <h3>Two column layout - One with an exact height</h3>
-            <hr></hr>
-            <section class="container align-items-stretch">
-              <div class="column-1">Height is 200px</div>
-              <div class="column-2">Height is auto</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.use-cases .align-items-stretch .column-1{height:200px;width:500px;margin-right:0;}</span><br /><span>.use-cases .align-items-stretch .column-2{width:200px;height:auto;}</span></code></pre>
-            </section>
-            <h3>Responsive four column</h3>
-            <hr></hr>
-            <section class="container responsive-row">
-              <div class="column-1">Column 1</div>
-              <div class="column-2">Column 2</div>
-              <div class="column-3">Column 3</div>
-              <div class="column-4">Column 4</div>
-            </section>
-            <section class="style-code">
-              <pre><code><span>.use-cases .responsive-row{flex-flow:row wrap;justify-content:space-around;}</span><br /><span>.use-cases .responsive-row .column-1, .use-cases .responsive-row .column-2, .use-cases .responsive-row .column-3, .use-cases .responsive-row .column-4{width:25%;margin-right:0;}</span></code></pre>
+            <section class="use-cases">
+              <h2>Flex Use Cases</h2>
+              <h3>Center a child element exactly inside the parent element</h3>
+              <hr></hr>
+              <section class="container center parent">
+                <div class="child">Child</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.center.parent{display:flex;height:200px;width:200px;background-color:#DDD;}</span><br /><span>.center .child{width:100px;height:100px;margin:auto;background-color:#E04836;color:#FFF;}</span></code></pre>
+              </section>
+              <h3>Two column layout - One with an exact height</h3>
+              <hr></hr>
+              <section class="container align-items-stretch">
+                <div class="column-1">Height is 200px</div>
+                <div class="column-2">Height is auto</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.use-cases .align-items-stretch .column-1{height:200px;width:500px;margin-right:0;}</span><br /><span>.use-cases .align-items-stretch .column-2{width:200px;height:auto;}</span></code></pre>
+              </section>
+              <h3>Responsive four column</h3>
+              <hr></hr>
+              <section class="container responsive-row">
+                <div class="column-1">Column 1</div>
+                <div class="column-2">Column 2</div>
+                <div class="column-3">Column 3</div>
+                <div class="column-4">Column 4</div>
+              </section>
+              <section class="style-code">
+                <pre><code><span>.use-cases .responsive-row{flex-flow:row wrap;justify-content:space-around;}</span><br /><span>.use-cases .responsive-row .column-1, .use-cases .responsive-row .column-2, .use-cases .responsive-row .column-3, .use-cases .responsive-row .column-4{width:25%;margin-right:0;}</span></code></pre>
+              </section>
             </section>
           </section>
         </div>

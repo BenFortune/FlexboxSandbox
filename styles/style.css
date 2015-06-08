@@ -1,8 +1,11 @@
 /* GLOBAL STYLING */
 body{background-color:#EEE;color:#333;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif}
-.page-container{display:block;width:75%;margin:0 auto;padding-bottom:3em;}
+.page-container{display:flex;padding-bottom:3em;}
+.page-container > .left-col{display:block;float:left;width:30%;padding:0 3em 0 1.5em;background-color:#333;}
+.page-container > .right-col{display:block;float:right;width:69.9%;padding:0 1.5em 0 3em;}
+
 h1, h2, h3{font-family: 'Varela Round', sans-serif;}
-h1{margin-bottom:0;padding-bottom:0;color:#555;font-weight:300;}
+h1{margin-bottom:0;padding-bottom:0;color:#F9F9F9;font-weight:300;}
 h2{padding-bottom:5px;color:#666;font-size:22px;border-bottom:1px solid #D9D9D9}
 h3{margin-top:40px;margin-bottom:0;font-size:18px;color:#069;}
 .text-right{text-align:right;}
@@ -10,15 +13,17 @@ h3{margin-top:40px;margin-bottom:0;font-size:18px;color:#069;}
 .warning{margin-top:.75em;padding:5px 10px;color:#FFF;font-weight:300;background:#58C756 none;border-radius:3px;}
 hr{margin-bottom:20px;height:1px;border:0 none;background: #333333;background: -moz-linear-gradient(left,  #333333 0%, #eeeeee 25%);background: -webkit-gradient(linear, left top, right top, color-stop(0%,#333333), color-stop(25%,#eeeeee));background: -webkit-linear-gradient(left,  #333333 0%,#eeeeee 25%);background: -o-linear-gradient(left,  #333333 0%,#eeeeee 25%);background: -ms-linear-gradient(left,  #333333 0%,#eeeeee 25%);background: linear-gradient(to right,  #333333 0%,#eeeeee 25%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#eeeeee',GradientType=1 );}
 hr.reverse{background: #eeeeee;background: -moz-linear-gradient(left,  #eeeeee 75%, #333333 100%);background: -webkit-gradient(linear, left top, right top, color-stop(75%,#eeeeee), color-stop(100%,#333333));background: -webkit-linear-gradient(left,  #eeeeee 75%,#333333 100%);background: -o-linear-gradient(left,  #eeeeee 75%,#333333 100%);background: -ms-linear-gradient(left,  #eeeeee 75%,#333333 100%);background: linear-gradient(to right,  #eeeeee 75%,#333333 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#333333',GradientType=1 );}
-.subtitle{margin-top:0;color:#999;}
+.subtitle{margin-top:0;color:#BBB;}
+.clear{clear: both;}
 /* END GLOBAL STYLING */
 
 /* HEADER STYLING */
-header{margin-top:40px;}
-header .left-col, header .right-col{display:inline-block;padding:0;margin:0;}
-header .left-col{width:8%;max-height:72px;}
+header{display:flex;margin-top:40px;}
+header .left-col, header .right-col{flex-wrap:wrap;padding:0;margin:0;}
+header .left-col{width:40%;max-height:72px;}
 header .left-col img{max-width:72px;}
-header .right-col{width:91%;line-height:1;vertical-align:bottom}
+header .right-col{width:59.9%;line-height:1;vertical-align:bottom}
+header p{display:block;width:100%;}
 /* END HEADER STYLING */
 
 /* FLEXBOX STYLING */
@@ -100,5 +105,9 @@ header .right-col{width:91%;line-height:1;vertical-align:bottom}
 
 /* CODE STYLING */
 pre{overflow:auto;margin-top:1.25em;margin-bottom:1.5em;padding:0px;,-moz-tab-size:2;word-break:normal;position:relative;background:#373b41 none;}
-pre code{font-size:0.9rem;padding:15px;white-space:pre;overflow:auto;display:block;color:#BED300;line-height:1.5}
+pre code{font-size:0.9rem;padding:15px;white-space:pre;overflow:auto;display:block;color:#B7B6F5;line-height:1.5}
 pre code span{display:inline-block;margin:0;padding:0;}
+
+/* UNUSED COLORS
+  Tan: #D7D08A
+*/
