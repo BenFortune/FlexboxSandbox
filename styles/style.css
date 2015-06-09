@@ -1,30 +1,35 @@
 /* GLOBAL STYLING */
 body{background-color:#EEE;color:#333;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif}
-.page-container{display:flex;padding-bottom:3em;}
-.page-container > .left-col{display:block;float:left;width:30%;padding:0 1.5em;background-color:#333;}
-.page-container > .right-col{display:block;float:right;width:69.9%;padding:0 1.5em;}
+.page-container{display:flex;}
+.page-container > .left-col{display:block;float:left;width:30%;padding:0;background-color:#333;}
+.page-container > .right-col{display:block;float:right;width:69.9%;padding:0 3em 3em;}
 
 h1, h2, h3{font-family: 'Varela Round', sans-serif;}
-h1{margin-bottom:0;padding-bottom:0;color:#F9F9F9;font-weight:300;}
+h1{margin-top:0;margin-bottom:0;padding-bottom:0;color:#F9F9F9;font-weight:300;}
 h2{padding-bottom:5px;color:#666;font-size:22px;border-bottom:1px solid #D9D9D9}
-h3{margin-top:40px;margin-bottom:0;font-size:18px;color:#069;}
+h3{margin-top:40px;margin-bottom:0;font-size:26px;color:#069;}
+a{text-decoration:none;}
 .text-right{text-align:right;}
 .text-center{text-align:center;}
-.warning{margin-top:.75em;padding:5px 10px;color:#FFF;font-weight:300;background:#58C756 none;border-radius:3px;}
+.warning{margin-top:1.5em;padding:5px 10px;color:#FFF;font-weight:300;background:#58C756 none;border-radius:3px;}
 hr{margin-bottom:20px;height:1px;border:0 none;background: #333333;background: -moz-linear-gradient(left,  #333333 0%, #eeeeee 25%);background: -webkit-gradient(linear, left top, right top, color-stop(0%,#333333), color-stop(25%,#eeeeee));background: -webkit-linear-gradient(left,  #333333 0%,#eeeeee 25%);background: -o-linear-gradient(left,  #333333 0%,#eeeeee 25%);background: -ms-linear-gradient(left,  #333333 0%,#eeeeee 25%);background: linear-gradient(to right,  #333333 0%,#eeeeee 25%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#eeeeee',GradientType=1 );}
 hr.reverse{background: #eeeeee;background: -moz-linear-gradient(left,  #eeeeee 75%, #333333 100%);background: -webkit-gradient(linear, left top, right top, color-stop(75%,#eeeeee), color-stop(100%,#333333));background: -webkit-linear-gradient(left,  #eeeeee 75%,#333333 100%);background: -o-linear-gradient(left,  #eeeeee 75%,#333333 100%);background: -ms-linear-gradient(left,  #eeeeee 75%,#333333 100%);background: linear-gradient(to right,  #eeeeee 75%,#333333 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#333333',GradientType=1 );}
-.subtitle{margin-top:0;color:#BBB;}
+.subtitle{padding-top:1em;margin:0 1.5em 1.5em;color:#BBB;font-weight:300;}
 .clear{clear: both;}
 /* END GLOBAL STYLING */
 
 /* HEADER STYLING */
-header{display:block;margin-top:40px;}
-header .left-col, header .right-col{display:inline-block;padding:0;margin:0;}
-header .left-col{width:32%;max-height:72px;}
+header{display:block;margin-top:1.5em;}
+header .left-col, header .right-col{display:inline-block;margin:0;}
+header .left-col{width:25%;max-height:72px;padding-left:1.5em;}
 header .left-col img{max-width:72px;}
-header .right-col{width:66%;line-height:1;vertical-align:bottom}
-header p{display:block;width:100%;}
+header .right-col{padding-top:.3em;padding-right:1.5em;width:56%;line-height:1;vertical-align:top}
 /* END HEADER STYLING */
+
+/* NAV STYLING */
+nav{border-top:1px solid #EEE;}
+nav a{display:block;padding-top:1em;padding-bottom:1em;color:#EEE;text-indent:1.5em;border-bottom:1px solid #EEE;}
+/* END NAV STYLING */
 
 /* FLEXBOX STYLING */
 .container{display:flex;margin-bottom:30px;}
@@ -35,7 +40,7 @@ header p{display:block;width:100%;}
 .column-5{display:block;width:100px;height:100px;margin-right:20px;color:#FFF;text-align:center;line-height:100px;vertical-align:middle;background-color:#2F5168;}
 
 /* VERTICAL ROW STYLING */
-.vertical .column-1{height:150px;line-height:150px;}
+.vertical .column-1{he;ight:150px;line-height:150px;}
 .vertical .column-2{height:50px;line-height:50px;}
 .vertical .column-3{height:100px;line-height:100px;}
 .vertical .column-4{height:200px;line-height:200px;}
