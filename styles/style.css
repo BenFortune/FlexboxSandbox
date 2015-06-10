@@ -27,8 +27,8 @@ header .right-col{padding-top:.3em;padding-right:1.5em;width:56%;line-height:1;v
 /* END HEADER STYLING */
 
 /* NAV STYLING */
-nav{border-top:1px solid #F5EE73;}
-nav a{display:block;padding-top:1em;padding-bottom:1em;color:#F5EE73;text-indent:1.5em;border-bottom:1px solid #F5EE73;}
+nav{border-top:1px solid #CEEACB;}
+nav a{display:block;padding-top:1em;padding-bottom:1em;color:#CEEACB;text-indent:1.5em;border-bottom:1px solid #CEEACB;}
 /* END NAV STYLING */
 
 /* FLEXBOX STYLING */
@@ -109,7 +109,7 @@ nav a{display:block;padding-top:1em;padding-bottom:1em;color:#F5EE73;text-indent
 .use-cases .responsive-row .column-1, .use-cases .responsive-row .column-2, .use-cases .responsive-row .column-3, .use-cases .responsive-row .column-4{width:25%;margin-right:0;}
 
 /* CODE STYLING */
-pre{overflow:auto;margin-top:1.25em;margin-bottom:1.5em;padding:0px;,-moz-tab-size:2;word-break:normal;position:relative;background:#373b41 none;}
+pre{overflow:auto;margin-top:1.25em;margin-bottom:1.5em;padding:0px;,-moz-tab-size:2;word-break:normal;position:relative;background:#373b41 none;border-left:4px solid #AAA;}
 pre code{font-size:0.9rem;padding:15px;white-space:pre;overflow:auto;display:block;color:#B7B6F5;line-height:1.5}
 pre code span{display:inline-block;margin:0;padding:0;}
 
