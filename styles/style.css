@@ -27,8 +27,8 @@ header .right-col{padding-top:.3em;padding-right:1.5em;width:56%;line-height:1;v
 /* END HEADER STYLING */
 
 /* NAV STYLING */
-nav{border-top:1px solid #CEEACB;}
-nav a{display:block;padding-top:1em;padding-bottom:1em;color:#CEEACB;text-indent:1.5em;border-bottom:1px solid #CEEACB;}
+nav{border-top:1px solid #FFF;}
+nav a{display:block;padding-top:1em;padding-bottom:1em;color:#FFF;text-indent:1.5em;border-bottom:1px solid #FFF;}
 /* END NAV STYLING */
 
 /* FLEXBOX STYLING */
@@ -115,4 +115,5 @@ pre code span{display:inline-block;margin:0;padding:0;}
 
 /* UNUSED COLORS
   Tan: #D7D08A
+  Light Green: #CEEACB
 */
